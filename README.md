@@ -1,8 +1,5 @@
 # Digital-Bank-OO: Resilience & Architecture
 
-[![Java CI with Maven](https://github.com/luanmarcelseverino/NOME-DO-REPO/actions/workflows/maven.yml/badge.svg)](https://github.com/luanmarcelseverino/NOME-DO-REPO/actions)
-[![Lombok Enabled](https://img.shields.io/badge/Lombok-Enabled-green)](https://projectlombok.org/)
-
 Este projeto demonstra uma implementação robusta de um sistema bancário digital, utilizando os pilares da **Programação Orientada a Objetos (POO)em Java**, integrando gestão de dependências com **Maven** e otimização de código com **Lombok**.
 
 ### Status do Projeto
