@@ -1,8 +1,11 @@
-# 🏦 Digital-Bank-OO: Resilience & Architecture
+# Digital-Bank-OO: Resilience & Architecture
+
+[![Java CI with Maven](https://github.com/luanmarcelseverino/NOME-DO-REPO/actions/workflows/maven.yml/badge.svg)](https://github.com/luanmarcelseverino/NOME-DO-REPO/actions)
+[![Lombok Enabled](https://img.shields.io/badge/Lombok-Enabled-green)](https://projectlombok.org/)
 
 Este projeto demonstra uma implementação robusta de um sistema bancário digital, utilizando os pilares da **Programação Orientada a Objetos (POO)em Java**, integrando gestão de dependências com **Maven** e otimização de código com **Lombok**.
 
-### 📊 Status do Projeto
+### Status do Projeto
 O projeto foca em escalabilidade e manutenibilidade, servindo como base para futuras integrações de testes unitários e de integração.
 
 ---
@@ -12,6 +15,7 @@ O projeto foca em escalabilidade e manutenibilidade, servindo como base para fut
 * **Gestão de Dependências:** Maven
 * **Bibliotecas:** Lombok
 * **IDE:** VS Code
+* **DevOps/QA:** GitHub Actions (CI/CD)
 
 ## Diferenciais do Projeto
 * **Transactional Ledger:** Implementação de um histórico dinâmico que rastreia cada movimentação (Data, Tipo, Valor e Descrição).
@@ -19,6 +23,8 @@ O projeto foca em escalabilidade e manutenibilidade, servindo como base para fut
 * **Business Rules Validation:** Validações de saldo e valores para garantir a resiliência das operações financeiras.
 * **Scalable Architecture:** Estrutura baseada em Interfaces e Classes Abstratas para alta manutenibilidade.
 * **Automated Pipeline:** Integração contínua configurada para validar o build a cada commit.
+* **Messaging Architecture:** Simulação de alertas push e notificações críticas de saldo.
+* **Object-Oriented Excellence:** Aplicação rigorosa de Abstração, Encapsulamento e Polimorfismo.
 
 ## Como executar
 1. **Instale as dependências:** `mvn clean install`
