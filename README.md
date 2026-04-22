@@ -1,5 +1,7 @@
 # Digital-Bank-OO: Resilience & Architecture
 
+[![pages-build-deployment](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/pages/pages-build-deployment)
+
 Este projeto demonstra uma implementação robusta de um sistema bancário digital, utilizando os pilares da **Programação Orientada a Objetos (POO)em Java**, integrando gestão de dependências com **Maven** e otimização de código com **Lombok**.
 
 ### Status do Projeto
