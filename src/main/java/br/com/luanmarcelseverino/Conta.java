@@ -6,7 +6,7 @@ import java.util.List;
 import lombok.Getter;
 
 public abstract class Conta implements IConta {
-    
+
     protected static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
 
@@ -14,7 +14,7 @@ public abstract class Conta implements IConta {
     @Getter protected int numero;
     @Getter protected double saldo;
     @Getter protected Cliente cliente;
-    protected List<Transacao> extrato;
+    @Getter protected List<Transacao> extrato;
 
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
@@ -42,9 +42,9 @@ public abstract class Conta implements IConta {
     @Override
     public void transferir(IConta contaDestino, double valor) {
         if (this.saldo >= valor) {
-            this.sacar(valor);
-            contaDestino.depositar(valor);
+            this.saldo -= valor;
             extrato.add(new Transacao("TRANSFERENCIA ENVIADA", valor));
+            contaDestino.depositar(valor);
         } else {
             System.out.println("Erro: Saldo insuficiente para transferência.");
         }
@@ -55,10 +55,9 @@ public abstract class Conta implements IConta {
         System.out.println(String.format("Agencia: %d", this.agencia));
         System.out.println(String.format("Numero: %d", this.numero));
         System.out.println(String.format("Saldo: %.2f", this.saldo));
-        
-        System.out.println("--- Histórico de Transações ---");
+
+        System.out.println("=== Extrato ===");
         for (Transacao t : extrato) {
-            // O getTipo e getValor vêm do Lombok na classe Transacao
             System.out.println(String.format("%s: R$ %.2f", t.getTipo(), t.getValor()));
         }
     }

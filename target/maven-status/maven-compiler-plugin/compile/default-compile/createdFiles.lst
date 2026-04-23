@@ -1,2 +1,10 @@
-br\com\luanmarcelseverino\AuditoriaService.class
+br\com\luanmarcelseverino\Conta.class
 br\com\luanmarcelseverino\Banco.class
+br\com\luanmarcelseverino\IConta.class
+br\com\luanmarcelseverino\AuditoriaService.class
+br\com\luanmarcelseverino\Cliente.class
+br\com\luanmarcelseverino\NotificacaoService.class
+br\com\luanmarcelseverino\Transacao.class
+br\com\luanmarcelseverino\ContaCorrente.class
+br\com\luanmarcelseverino\Main.class
+br\com\luanmarcelseverino\ContaPoupanca.class
