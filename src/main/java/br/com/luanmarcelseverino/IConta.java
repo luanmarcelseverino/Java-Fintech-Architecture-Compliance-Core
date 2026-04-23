@@ -1,3 +1,5 @@
+package br.com.luanmarcelseverino;
+
 public interface IConta {
     
     void depositar(double valor);

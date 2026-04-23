@@ -1,5 +1,8 @@
+package br.com.luanmarcelseverino;
+
 import java.util.ArrayList;
 import java.util.List;
+
 import lombok.Getter;
 
 public abstract class Conta implements IConta {

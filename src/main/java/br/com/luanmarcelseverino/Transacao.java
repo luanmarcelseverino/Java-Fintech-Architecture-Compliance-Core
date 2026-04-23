@@ -1,3 +1,5 @@
+package br.com.luanmarcelseverino;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -5,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cliente {
-    private String nome;
+public class Transacao {
+    private String tipo;
+    private double valor;
 }
