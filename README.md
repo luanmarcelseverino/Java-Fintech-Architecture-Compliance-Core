@@ -1,12 +1,13 @@
 # Digital-Bank-OO: Resilience & Architecture
 
+[![Allure Report CI](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml/badge.svg)](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml)
 [![pages-build-deployment](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/pages/pages-build-deployment)
 
 Este projeto demonstra uma implementação robusta de um sistema bancário digital, utilizando os pilares da **Programação Orientada a Objetos (POO)em Java**, integrando gestão de dependências com **Maven** e otimização de código com **Lombok**.
 
 ### 📊 Relatório de Testes (Allure Report)
 Você pode visualizar os resultados detalhados da última execução da pipeline aqui:
-**[![Allure Report CI](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml/badge.svg)](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml)**
+**[Visualizar Relatório Online](https://luanmarcelseverino.github.io/Java-Fintech-Architecture-Compliance-Core/)**
 
 ### Status do Projeto
 O projeto foca em escalabilidade e manutenibilidade, servindo como base para futuras integrações de testes unitários e de integração.
