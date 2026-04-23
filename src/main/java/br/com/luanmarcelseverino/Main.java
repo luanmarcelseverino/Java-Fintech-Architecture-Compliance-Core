@@ -1,7 +1,4 @@
-import br.com.luanmarcelseverino.Cliente;
-import br.com.luanmarcelseverino.Conta;
-import br.com.luanmarcelseverino.ContaCorrente;
-import br.com.luanmarcelseverino.ContaPoupanca;
+package br.com.luanmarcelseverino;
 
 public class Main {
     public static void main(String[] args) {
