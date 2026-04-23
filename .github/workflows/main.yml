@@ -23,7 +23,7 @@ jobs:
           cache: maven
 
       - name: Run Tests
-        run: mvn test # O Allure gera os resultados aqui
+        run: mvn test 
 
       - name: Get Allure history
         uses: actions/checkout@v4
