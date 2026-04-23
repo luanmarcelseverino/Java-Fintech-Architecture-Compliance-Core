@@ -6,7 +6,7 @@ Este projeto demonstra uma implementação robusta de um sistema bancário digit
 
 ### 📊 Relatório de Testes (Allure Report)
 Você pode visualizar os resultados detalhados da última execução da pipeline aqui:
-**[Visualizar Relatório Online](https://luanmarcelseverino.github.io/Java-Fintech-Architecture-Compliance-Core/)**
+**[![Allure Report CI](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml/badge.svg)](https://github.com/luanmarcelseverino/Java-Fintech-Architecture-Compliance-Core/actions/workflows/main.yml)**
 
 ### Status do Projeto
 O projeto foca em escalabilidade e manutenibilidade, servindo como base para futuras integrações de testes unitários e de integração.
