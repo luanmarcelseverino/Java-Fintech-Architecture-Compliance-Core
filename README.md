@@ -14,7 +14,7 @@ O projeto foca em escalabilidade e manutenibilidade, servindo como base para fut
 ---
 
 ## Tech Stack
-* **Linguagem:** Java 25
+* **Linguagem:** Java 21
 * **Gestão de Dependências:** Maven
 * **Bibliotecas:** Lombok
 * **IDE:** VS Code
