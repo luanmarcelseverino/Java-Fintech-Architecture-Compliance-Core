@@ -5,13 +5,18 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
   build-and-report:
     runs-on: ubuntu-latest
+
+    # permissão explícita também no job
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -23,7 +28,7 @@ jobs:
           cache: maven
 
       - name: Run Tests
-        run: mvn test 
+        run: mvn test
 
       - name: Get Allure history
         uses: actions/checkout@v4
